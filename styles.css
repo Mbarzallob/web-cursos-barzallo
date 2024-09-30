@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Baskervville SC", serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+header {
+    background-color: darkorange;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+
+}
+li {
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgba(109, 109, 109, 0.10);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkorange;
+}
+
+#gestion-cursos, #agregar-curso, #inicio, #contacto {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: darkorange;
+    color: white;
+}
+
+#contacto p, #inicio p {
+    text-align: center;
+    color: #333;
+}
+
+#contacto p a {
+    color: darkorange;
+
+}

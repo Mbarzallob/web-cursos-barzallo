@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="inline-block"><a href="#inicio">Inicio</a></li>
+                <li class="inline-block"><a href="#gestion-cursos">Cursos</a></li>
+                <li class="inline-block"><a href="#agregar-curso">Agregar curso</a></li>
+                <li class="inline-block"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido a la Gestión de Cursos</h1>
+        <p>Esta plataforma te permite gestionar tus cursos de manera fácil y rápida.</p>
+    </section>
+
+    <section id="gestion-cursos">
+        <h1>Gestión de Cursos</h1>
+        <ul id="lista-cursos">
+        </ul>
+    </section>
+
+    <section id="agregar-curso">
+        <h2>Agregar Curso</h2>
+        <form id="form-curso">
+            <label for="nombre">Nombre del Curso:</label>
+            <input type="text" id="nombre" required><br><br>
+            <label for="profesor">Instructor:</label>
+            <input type="text" id="profesor" required><br><br>
+            <label for="fecha">Fecha de Inicio:</label>
+            <input type="date" id="fecha" required><br><br>
+            <label for="duracion">Duración (semanas):</label>
+            <input type="number" id="duracion" required><br><br>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea><br><br>
+            <button type="submit">Agregar Curso</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos a través de nuestro correo: <a
+                href="mailto:mbarzallob@est.ups.edu.ec">mbarzallob@est.ups.edu.ec</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gestión de Cursos</p>
+    </footer>
+
+    <script src="scrypt.js"></script>
+</body>
+
+</html>
